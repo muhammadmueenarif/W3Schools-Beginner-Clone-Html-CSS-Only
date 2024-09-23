@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: brown;
+    width: 99vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#learn {
+    color: white;
+}
+
+h2 {
+    color: yellow;
+}
+
+input {
+    background: white;
+    color: black;
+    font-weight: bold;
+    width: 33vw;
+    height: 8vh;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-top: 30px;
+}
+
+#content {
+    width: 99vw;
+    height: 555px;
+    background: rgb(17, 17, 17);
+    color: white;
+    display: flex;
+}
+
+.box1 {
+    width: 100vw;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content1 {
+    width: 99vw;
+    height: 607px;
+    background: rgb(17, 17, 17);
+    color: white;
+    display: flex;
+}
+
+.box2 {
+    background: skyblue;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 45%;
+}
+
+#htmlexample {
+    background: skyblue;
+    display: flex;
+    flex: 45%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 70vh;
+    background: lightgray;
+}
+
+.try {
+    background: lightseagreen;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.try:hover {
+    cursor: pointer;
+}
+
+.box3 {
+    background: orange;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 45%;
+}
+
+#cssexample {
+    background: orange;
+    display: flex;
+    flex: 45%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box4 {
+    background: grey;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 45%;
+}
+
+#jsexample {
+    background: grey;
+    display: flex;
+    flex: 45%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box5 {
+    background: wheat;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 45%;
+}
+
+#pythonexample {
+    background: wheat;
+    display: flex;
+    flex: 45%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box6 {
+    background: aqua;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 45%;
+}
+
+#sqlexample {
+    background: aqua;
+    display: flex;
+    flex: 45%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content2 {
+    padding: 2%;
+    width: 95vw;
+    height: 700px;
+    background: rgb(17, 17, 17);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 40vw;
+    flex: 45%;
+}
+
+.php {
+    background: pink;
+    width: 35vw;
+    height: 30vh;
+}
+
+.jquery {
+    background: palegoldenrod;
+    width: 20vw;
+    height: 30vh;
+}
+
+.java {
+    background: white;
+    width: 20vw;
+    height: 30vh;
+}
+
+.cplus {
+    background: rgb(147, 214, 240);
+    width: 20vw;
+    height: 30vh;
+}
+
+.w3 {
+    background: aquamarine;
+    width: 20vw;
+    height: 30vh;
+}
+
+.bootstrap {
+    background: white;
+    width: 20vw;
+    height: 30vh;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    margin-top: 10px;
+}
+
+button {
+    background: black;
+    color: white;
+    width: 10vw;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+#content3 {
+    padding: 2%;
+    width: 95vw;
+    height: 100px;
+    background: green;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#c {
+    flex: 45%;
+    background: pink;
+    width: 17vw;
+    max-width: 40vw;
+    height: 18vh;
+}
+
+#csharp {
+    flex: 45%;
+    background: orange;
+    width: 20vw;
+    max-width: 40vw;
+    height: 18vh;
+}
+
+
+.content4 {
+    width: 99vw;
+    height: 200px;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub {
+    margin-top: 6%;
+    border-radius: 5px;
+}
+
+#r {
+    background: gray;
+    width: 15vw;
+    height: 17vh;
+}
+
+#kotlin {
+    background: wheat;
+    width: 15vw;
+    height: 17vh;
+}
+
+#nodejs {
+    background: aquamarine;
+    width: 15vw;
+    height: 17vh;
+}
+
+#react {
+    background: palevioletred;
+    width: 15vw;
+    height: 17vh;
+}
+
+#json {
+    background: lightyellow;
+    width: 15vw;
+    height: 17vh;
+}
+
+#vue {
+    background: gray;
+    width: 15vw;
+    height: 17vh;
+}
+
+#mysql {
+    background: wheat;
+    width: 15vw;
+    height: 17vh;
+}
+
+#xml {
+    background: aquamarine;
+    width: 15vw;
+    height: 17vh;
+}
+
+#saas {
+    background: palevioletred;
+    width: 15vw;
+    height: 17vh;
+}
+
+#icons {
+    background: lightyellow;
+    width: 15vw;
+    height: 17vh;
+}
+
+#rwd {
+    background: gray;
+    width: 15vw;
+    height: 17vh;
+}
+
+#graphics {
+    background: wheat;
+    width: 15vw;
+    height: 17vh;
+}
+
+#svg {
+    background: aquamarine;
+    width: 15vw;
+    height: 17vh;
+}
+
+#canvas {
+    background: palevioletred;
+    width: 15vw;
+    height: 17vh;
+}
+
+#raspberry-pi {
+    background: lightyellow;
+    width: 15vw;
+    height: 17vh;
+}
+
+#cybersecurity {
+    background: grey;
+    width: 15vw;
+    height: 17vh;
+}
+
+#colors {
+    background: wheat;
+    width: 15vw;
+    height: 17vh;
+}
+
+#git {
+    background: aquamarine;
+    width: 15vw;
+    height: 17vh;
+}
+
+#matplotib {
+    background: palevioletred;
+    width: 15vw;
+    height: 17vh;
+}
+
+#numpy {
+    background: lightyellow;
+    width: 15vw;
+    height: 17vh;
+}
+
+#pandas {
+    background: grey;
+    width: 15vw;
+    height: 17vh;
+}
+
+#scipy {
+    background: wheat;
+    width: 15vw;
+    height: 17vh;
+}
+
+#asp {
+    background: aquamarine;
+    width: 15vw;
+    height: 17vh;
+}
+
+#angularjs {
+    background: palevioletred;
+    width: 15vw;
+    height: 17vh;
+}
+
+#appml {
+    background: lightyellow;
+    width: 15vw;
+    height: 17vh;
+}
+
+#go {
+    background: grey;
+    width: 15vw;
+    height: 17vh;
+}
+
+#typescript {
+    background: wheat;
+    width: 15vw;
+    height: 17vh;
+}
+
+#django {
+    background: aquamarine;
+    width: 15vw;
+    height: 17vh;
+}
+
+#mongodb {
+    background: palevioletred;
+    width: 15vw;
+    height: 17vh;
+}
+
+#statistics {
+    background: lightyellow;
+    width: 15vw;
+    height: 17vh;
+}
+
+#datascience {
+    background: grey;
+    width: 15vw;
+    height: 17vh;
+}
+
+#typingspeed {
+    background: wheat;
+    width: 15vw;
+    height: 17vh;
+}
+
+#howto {
+    background: aquamarine;
+    width: 15vw;
+    height: 17vh;
+}
+
+#codegame {
+    background: palevioletred;
+    width: 15vw;
+    height: 17vh;
+}
+
+#spaces {
+    background: lightyellow;
+    width: 15vw;
+    height: 17vh;
+}
+
+#postgresql {
+    background: wheat;
+    width: 15vw;
+    height: 17vh;
+}
+
+#content5 {
+    width: 99vw;
+    height: 200px;
+    background: black;
+    display: flex;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#excel {
+    background: grey;
+    width: 38vw;
+    height: 17vh;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+#dsa {
+    background: aquamarine;
+    width: 37.5vw;
+    height: 17vh;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+#content5b {
+    width: 99vw;
+    height: 200px;
+    background: black;
+    display: flex;
+}
+
+#machinelearning {
+    background: palevioletred;
+    width: 38vw;
+    height: 17vh;
+    border-radius: 5px;
+    margin-left: 8%;
+}
+
+#ai {
+    background: lightyellow;
+    width: 38vw;
+    height: 17vh;
+    border-radius: 5px;
+    margin-left: 8%;
+}
+
+#footer {
+    background: red;
+    width: 99vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
